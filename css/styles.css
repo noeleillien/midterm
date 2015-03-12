@@ -1,0 +1,107 @@
+header {
+	margin-top: 100px;
+	height: 300px;
+	font-size: 80px;
+	color: steelblue;
+	font-family: url(.../css/kindergarten.ttf);
+	text-shadow: 2px 2px black;
+	max-width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	max-width: 500px;
+}
+
+body{
+	font-family: Helvetica;
+}
+
+.cont {
+	max-width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.very-important{
+	font-size: 20px;
+	text-decoration: underline;
+	font-style: italic;
+	color: magenta;
+}
+
+#slideshow-canvas{
+	width: 500px;
+	height: 500px;
+	margin-left: 18%;
+	margin-right: 15%;
+}
+
+#options {
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.option{
+	display: inline-block;
+	border-radius: 50%;
+	width: 200px;
+	height:200px;
+	border: solid 1px black;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+	position: center;
+	text-align: center;
+	margin-top: 10%;
+	background-position: center center;
+	padding: auto;
+	clear: both;
+
+}
+
+#agrade {
+	background-image: url(../imgs/agrade-01.jpg);
+}
+
+#agrade:hover {
+	opacity:0.5;
+	filter:alpha(opacity=100); 
+	cursor: pointer;
+}
+
+#bgrade {
+	background-image: url(../imgs/bgrade.jpg);
+}
+
+#bgrade:hover {
+	opacity:0.5;
+	filter:alpha(opacity=100); 
+	cursor: pointer;
+}
+
+#cgrade {
+	background-image: url(../imgs/cgrade-01.jpg);
+}
+
+#cgrade:hover {
+	opacity:0.5;
+	filter:alpha(opacity=100); 
+	cursor: pointer;
+}
+
+#pendinggrade {
+	background-image: url(../imgs/gpgrade-01.jpg);
+}
+
+#pendinggrade:hover {
+	opacity:0.5;
+	filter:alpha(opacity=100); 
+	cursor: pointer;
+}
+
